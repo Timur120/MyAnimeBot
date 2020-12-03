@@ -11,7 +11,7 @@ keyboard1 = telebot.types.ReplyKeyboardMarkup()
 keyboard1.row('По алфавиту','По рейтингу')
 
 
-bot = telebot.TeleBot('1428981663:AAFNNDORhKGkkiFb_umQB4JZfyEvt5HIibg')
+bot = telebot.TeleBot('Token')
 Users = set()
 
 @bot.message_handler(commands=['start'])
